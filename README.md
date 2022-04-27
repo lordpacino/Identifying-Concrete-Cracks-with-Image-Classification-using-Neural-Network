@@ -24,20 +24,20 @@ As the classifier, a global average pooling and dense layer are employed to gene
 
 The model is shown in figure in a simplified form in the image below.
 
-[image](https://user-images.githubusercontent.com/76200485/165531825-a282c5ee-9f51-4ec1-afd3-cb1ac3e91a0c.png)
+[pipe2](https://user-images.githubusercontent.com/76200485/165536066-2308f8aa-0614-4580-a63c-737bceb8ca24.png)
 
 The model is trained with a batch size of 16 and 10 epochs. After training, the model reaches 99% training accuracy and 95% validation accuracy. The training results are shown in the figures below.
 
 [epochloss](https://user-images.githubusercontent.com/76200485/165533669-e4a760a0-cfb7-4003-9ad1-195de6cd1e7a.jpg)
-![epochaccracy](https://user-images.githubusercontent.com/76200485/165533798-dbcdd6bc-b3cb-45d7-a4a0-93d0ca5bfd4c.jpg)
+[epochaccracy](https://user-images.githubusercontent.com/76200485/165533798-dbcdd6bc-b3cb-45d7-a4a0-93d0ca5bfd4c.jpg)
 
 The graphs clearly show evidence of convergence, showing that the model has been trained to achieve an ideal level of accuracy and loss.
 
 ## 4. Results
 With the test data, the model is assessed. The loss and accuracy are displayed in the image below.
 
-![result](https://user-images.githubusercontent.com/76200485/165534494-ef3cdd78-42c5-4976-b6bd-f6dc125fc2fc.jpg)
+[result](https://user-images.githubusercontent.com/76200485/165534494-ef3cdd78-42c5-4976-b6bd-f6dc125fc2fc.jpg)
 
 The model is also used to make predictions, which are then compared to the actual findings.
 
-![image](https://user-images.githubusercontent.com/76200485/165533992-e7a06fdc-f490-4083-ae88-69945144463b.png)
+[image](https://user-images.githubusercontent.com/76200485/165533992-e7a06fdc-f490-4083-ae88-69945144463b.png)
